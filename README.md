@@ -7,3 +7,4 @@
 
 # SCREEN-SHOT
 ![Project Screenshot](/public/espinas_new_top_logo_white.png)
+<img src="public/img-s2-3.webp" >
