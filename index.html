@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fa tailwind</title>
+    <link rel="stylesheet" href="icon/css/fontello.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body class="font-jost">
+
+    <div class="llist fixed w-[300px] h-[100vh] bg-neutral-700 -left-full top-0 duration-500">
+        <div class="w-full h-[10%] flex items-center border-b-2 border-black">
+            <i class="xlbtn bi bi-x cursor-pointer text-3xl text-neutral-100"></i>
+        </div>
+        <ul
+            class="*:text-neutral-100 *:w-full w-full *:font-bold *:text-[20px] *:h-10 *:flex
+            *:items-center *:pr-4 *:border-b-2 *:border-b-black *:hover:bg-neutral-800 *:duration-500 *:cursor-pointer">
+            <li><a href="">صفحه نخست</a></li>
+            <li><a href="">شعب هتل اسپیناس</a></li>
+            <li><a href="">رستوران های مجموعه</a></li>
+            <li class="flex justify-between items-center"><a href="">پروژه های مسکونی</a><i
+                    class="rlbtn bi bi-chevron-right px-3 border-r-2 border-r-black flex justify-center hover:bg-neutral-950 items-center text-2xl font-bold h-full"></i>
+                <div class="sublr w-full h-full duration-500  bg-neutral-700  absolute right-full top-0 ">
+                    <div class="w-full h-[10%] flex items-center border-b-2 border-black">
+                        <i class="llbtn bi bi-chevron-left cursor-pointer text-3xl text-neutral-100"></i>
+                    </div>
+                    <ul
+                        class="*:text-neutral-100 *:w-full w-full *:font-bold *:text-[20px] *:h-10 *:flex
+                    *:items-center *:pr-4 *:border-b-2 *:border-b-black *:hover:bg-neutral-800 *:duration-500 *:cursor-pointer">
+                        <li><a href="">پروژه هاید پارک</a></li>
+                        <li><a href="">پروژه امیران</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">مجموعه فان سنتر</a></li>
+            <li><a href="">تهران رویال </a></li>
+            <li><a href="">استخدام</a></li>
+            <li><a href="">ارتباط با ما</a></li>
+        </ul>
+    </div>
+
+    <div
+        class="rlist w-[22%] h-[100vh] rback fixed flex flex-wrap -right-full duration-600 *:w-full **:text-center content-evenly **:font-bold  ">
+        <i class="xrbtn bi bi-x absolute right-1/2 translate-x-[10px] cursor-pointer text-3xl text-gray-900"></i>
+        <div class="flex items-center justify-center"><img src="public/espinas_top_logo_black.png"
+                class="w-[150px] h-auto object-cover" alt=""></div>
+        <div>
+            <p class="text-amber-400 text-2xl mb-2">دفتر فروش و مارکتینگ:</p>
+            <p>تلفن تماس: 02175675</p>
+            <p>نمابر: 02175675365</p>
+            <p>sales@espinashotels.com</p>
+        </div>
+        <div>
+            <p class="text-amber-400 text-2xl mb-2">رزرواسیون مرکزی هتل اسپیناس:</p>
+            <p>تلفن تماس: 02175675</p>
+            <p>reservation@espinashotels.com</p>
+        </div>
+        <div class="flex justify-center items-center gap-3 *:text-3xl">
+            <a href=""><i class="icon-wh text-green-500"></i></a>
+            <a href=""><i class="icon-li text-blue-600"></i></a>
+            <a href=""><i class="icon-in text-gray-950"></i></a>
+        </div>
+    </div>
+    <video class="-z-10 fixed top-0 right-0 w-full h-[100vh] object-cover " loop muted autoplay
+        src="public/header-vid.mp4"></video>
+    <!-- start header -->
+    <header class="h-[100vh] w-full headback flex content-between flex-wrap ">
+        <nav class="w-full">
+            <div
+                class="flex xl:bg-[#00000000] bg-[#000000a4] xl:border-b-2 border-[#ffffffb6] w-full px-[2%] justify-between h-max items-center py-2 *:w-1/3">
+                <div class="h-full flex items-center  justify-start gap-1">
+                    <i
+                        class="cursor-pointer block duration-500 text-4xl text-start text-white hover:text-amber-400 bi bi-list">
+                    </i>
+                    <div class="hidden xl:block text-[18px]">
+                        <p class="text-center mb-1 text-white font-bold">اوج احساسات</p>
+                        <button class="navbtn">فارسی</button>
+                        <button class="navbtn">English</button>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <img class="cursor-pointer h-full w-auto object-fill" src="public/espinas_new_top_logo_white.png"
+                        alt=" logo">
+                </div>
+                <div class="flex xl:block items-center justify-end gap-2">
+                    <button class=" hidden md:block xl:hidden navbtn">فارسی</button>
+                    <button class="xl:hidden navbtn">English</button>
+                    <p class="hidden xl:block font-bold text-white text-end">reservation@espinashotels.com <i
+                            class="bi bi-envelope-fill"></i></p>
+                    <p class="hidden xl:block font-bold text-white text-end">02175675 <i
+                            class="bi bi-telephone-fill"></i></p>
+                </div>
+            </div>
+            <div class="hidden xl:block w-full px-[10%] py-2">
+                <ul
+                    class="flex justify-between *:hover:text-amber-400 *:text-[20px] *:font-bold text-white w-full *:bg-[#00000060] *:px-1">
+                    <li><a href="">صفحه نخست</a></li>
+                    <li><a href="">شعب هتل اسپیناس</a></li>
+                    <li><a href="">رستوران های مجموعه</a></li>
+                    <li class="relative hover:*:block hover:*:opacity-100"><a href="">پروژه های مسکونی <i
+                                class="bi bi-chevron-down"></i></a>
+                        <ul
+                            class="w-max opacity-0 hidden duration-500  bg-[#00000060] *:px-4 right-1/2 translate-x-1/2 *:border-b *:border-[#ffffff98] *:hover:bg-[#00000080] *:text-white absolute *:text-center *:hover:text-amber-400 ">
+                            <li><a href="">پروژه هاید پارک</a></li>
+                            <li><a href="">پروژه امیران</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">مجموعه فان سنتر</a></li>
+                    <li><a href="">تهران رویال </a></li>
+                    <li><a href="">استخدام</a></li>
+                    <li><a href="">ارتباط با ما</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div
+            class="w-[70%] lg:h-[100px] bg-[#5c512ae8] mb-10 mx-auto *:w-full flex-wrap *:lg:w-[30%] flex justify-between items-center content-center py-4 px-3">
+            <div class="lg:h-full flex flex-wrap content-center gap-1">
+                <div class="w-full text-neutral-900 font-bold ">
+                    <p><i class="bi bi-geo-alt-fill"></i> انتخاب هتل
+                    </p>
+                </div>
+                <input
+                    class="p-1 w-full px-4 outline-0 border-b border-neutral-900 text-black font-bold h-max bg-neutral-400"
+                    type="text" placeholder="انتخاب هتل">
+            </div>
+            <div class="lg:h-full flex flex-wrap content-center gap-1">
+                <div class="w-full text-neutral-900 font-bold ">
+                    <p><i class="bi bi-calendar-week-fill"></i> تاریخ ورود - تاریخ خروج
+                    </p>
+                </div>
+                <input
+                    class="p-1 w-full px-4 outline-0 border-b border-neutral-900 text-black font-bold h-max bg-neutral-400"
+                    type="text" placeholder="تاریخ ورود - تاریخ خروج">
+            </div>
+            <button class="text-white cursor-pointer h-[60px] mt-2 bg-black lg:h-full">بررسی موجود بودن اتاق</button>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start section  1 -->
+    <section
+        class="w-full min-h-max xl:h-[120vh] bg-white py-16 *:w-full *:md:w-[45%] *:xl:w-[300px] px-[7%] xl:px-8 flex-wrap flex justify-evenly *:my-2 xl:items-center ">
+        <figcaption class="flex flex-wrap  text-center w-full  gap-3">
+            <figure class="w-full flex justify-center">
+                <img class="w-[400px] md:w-full xl:w-[300px] object-cover anime" src="public/img-s1-1.webp" alt="">
+            </figure>
+            <caption class="w-full">
+                <h1 class=" w-full font-bold text-3xl text-neutral-950 font-marcellus">اسپیناس پالاس</h1>
+                <p class="w-full font-bold text-neutral-600 px-2">هتل اسپیناس پالاس با ارائه‌ی مجموعه ای از خدمات رفاهی
+                    و
+                    تفریحی متنوع، از بهترین هتل های تهران است.
+                    اقامت در این هتل همیشه باعث به جاماندن خاطرات فراموش نشدنی برای مهمانان خارجی و ایرانی آن بوده است.
+                    ما از اینکه در این هتل پذیرای مهمانان گرامی باشیم مفتخر خواهیم بود</p>
+                <a class="flex mx-auto items-center justify-center underline w-[100px] h-[50px] duration-500 bg-white hover:bg-black hover:text-white"
+                    href="">اطلاعات بیشتر</a>
+            </caption>
+        </figcaption>
+        <figcaption class="flex flex-wrap  text-center w-full  gap-3">
+            <figure class="w-full flex justify-center">
+                <img class="w-[400px] md:w-full xl:w-[300px] object-cover anime" src="public/img-s1-2.png" alt="">
+            </figure>
+            <caption class="w-full">
+                <h1 class=" w-full font-bold text-3xl text-neutral-950 font-marcellus">اسپیناس بین المللی</h1>
+                <p class="w-full font-bold text-neutral-600 px-2">هتل بین المللی اسپیناس یکی از ناب ترین هتل های مرکز
+                    تهران است که با ظرافت هنرمندانه ای در این شهر جهانی جذاب توجه ها را به سوی خود جلب می کند. این هتل
+                    با تلفیق عناصر معماری مدرن واقلام طبیعی غنی، با مهارت تحسین برانگیزی احساس آرامش را القا می کند</p>
+                <a class="flex mx-auto items-center justify-center underline w-[100px] h-[50px] duration-500 bg-white hover:bg-black hover:text-white"
+                    href="">اطلاعات بیشتر</a>
+            </caption>
+        </figcaption>
+        <figcaption class="flex flex-wrap  text-center w-full  gap-3">
+            <figure class="w-full flex justify-center">
+                <img class="w-[400px] md:w-full xl:w-[300px] object-cover anime" src="public/img-s1-3.webp" alt="">
+            </figure>
+            <caption class="w-full">
+                <h1 class=" w-full font-bold text-3xl text-neutral-950 font-marcellus">اسپیناس آستارا</h1>
+                <p class="w-full font-bold text-neutral-600 px-2">هتل اسپیناس آستارا با قرار گرفتن در کنار دریاچه طبیعی
+                    آستارا، چشم اندازی تماشایی و محیطی آرام برای مهمانان فراهم آورده است. این هتل زیبایی های طبیعی و
+                    بومی این منطقه از جمله جنگل سرسبز و باطراوت و سواحل ماسه ای را در معرض توجه همگان قرار داده است</p>
+                <a class="flex mx-auto items-center justify-center underline w-[100px] h-[50px] duration-500 bg-white hover:bg-black hover:text-white"
+                    href="">اطلاعات بیشتر</a>
+            </caption>
+        </figcaption>
+        <figcaption class="flex flex-wrap  text-center w-full  gap-3">
+            <figure class="w-full flex justify-center">
+                <img class="w-[400px] md:w-full xl:w-[300px] object-cover anime" src="public/img-s1-4.webp" alt="">
+            </figure>
+            <caption class="w-full">
+                <h1 class=" w-full font-bold text-3xl text-neutral-950 font-marcellus">اسپیناس رویال (2027)</h1>
+                <p class="w-full font-bold text-neutral-600 px-2">طراحی هتل اسپیناس رویال به عنوان اولین هتل با معماری
+                    نوین ایرانی اسلامی مطابق با استانداردهای پیشرفته روز دنیا، با توجه به ديد و منظره فوق العاده منطقه
+                    ولنجك به شهر تهران و كوه های البرز در زمينی به مساحت 8900 مترمربع در اين منطقه در دستور كار قرار
+                    گرفته است</p>
+                <a class="flex mx-auto items-center justify-center underline w-[100px] h-[50px] duration-500 bg-white hover:bg-black hover:text-white"
+                    href="">اطلاعات بیشتر</a>
+            </caption>
+        </figcaption>
+    </section>
+    <!-- end section  1 -->
+
+    <!-- start section 2 -->
+
+    <section
+        class="hidden  px-4 relative w-full min-h-[100vh] md:flex justify-between items-center flex-wrap lg:flex-nowrap backstwo">
+        <img class="h-[400px] w-[30%] lg:w-[300px] object-cover" src="public/img-s2-1.webp" alt="">
+        <img class="h-[400px] w-[30%] lg:w-[300px] mx-4 object-cover" src="public/img-s2-2.webp" alt="">
+        <img class="h-[400px] w-[30%] lg:w-[300px] object-cover" src="public/img-s2-3.webp" alt="">
+        <div class="pr-4 ">
+            <h2 class="text-center xl:text-start mb-2 text-white font-marcellus font-bold text-3xl">گروه هتل های اسپیناس
+            </h2>
+            <h3 class=" text-center xl:text-start mb-5 font-bold text-yellow-600 font-marcellus text-2xl">تجربه متفاوت
+                در اسپیناس</h3>
+            <p class="font-bold text-gray-200">گروه اسپیناس اولین هتل مجموعه ی خود را در سال ١٣٨٠ در ناحیه ی آستارای
+                استان گیلان
+                افتتاح کرد. این پروژه
+                پس از مدت ها بررسی، تجزیه و تحلیل و برنامه ریزی مدیریتی، توسعه ای مثال نزدنی یافت که امروزه مورد تصدیق
+                همگان می باشد. گروه اسپیناس با همکاری های مداوم با صاحبان هتل های سراسر جهان همواره سعی در رشد و توسعه ی
+                روزافزون و همچنین گسترش مجموعه در تمام شهرهای ایران داشته است. تا اینکه در سال ١٣٩١ تیم اسپیناس ساخت
+                سومین هتل لوکس خود را در یکی از بهترین مناطق تهران به پایان رساند.</p>
+        </div>
+    </section>
+
+    <!-- end section 2 -->
+
+    <!-- start section 3 -->
+
+    <section class="w-full bg-gray-200 min-h-[100vh] px-5 pt-5 flex flex-wrap justify-center content-center pb-7">
+        <div class="mb-6 w-full">
+            <h2 class="font-bold font-marcellus text-shadow-gray-950 text-center text-2xl mb-5">- مزایای رزرو آنلاین
+            </h2>
+            <h2 class="font-bold font-marcellus text-shadow-gray-950 text-center text-4xl">از مزایای رزرو مستقیم
+                هتل
+                اسپیناس چه می دانید؟</h2>
+        </div>
+        <figcaption
+            class="w-full xl:w-1/3 px-3 md:w-1/2 md:border-l-2 *:w-full flex flex-wrap gap-2.5 **:text-center border-b-2 pb-3 border-gray-500">
+            <figure class="flex justify-center">
+                <img class="w-[100px] h-[100px] object-cover" src="public/img-s3-1.png" alt="">
+            </figure>
+            <caption>
+                <h2 class="font-marcellus font-bold text-2xl text-gray-950">مقرون به صرفه تر</h2>
+                <p class="text-gray-500 font-bold">رزرو از طریق آژانس های مسافرتی هزینه بیشتری خواهد داشت. آژانس های
+                    مسافرتی هزینه خود را قبل از پرداخت
+                    برای رزرو شما کسر می کند. هتل اسپیناس همیشه مهمانانی را که مستقیماً رزرو کرده اند در اولویت قرار می
+                    دهد.</p>
+            </caption>
+        </figcaption>
+        <figcaption
+            class="w-full xl:w-1/3 xl:border-l-2 px-3 pt-4 md:w-1/2 *:w-full flex flex-wrap gap-2.5 **:text-center border-b-2 pb-3 border-gray-500">
+            <figure class="flex justify-center">
+                <img class="w-[100px] h-[100px] object-cover" src="public/img-s3-2.png" alt="">
+            </figure>
+            <caption>
+                <h2 class="font-marcellus font-bold text-2xl text-gray-950">امتیاز برنامه وفاداری</h2>
+                <p class="text-gray-500 font-bold">وقتی مستقیماً با هتل اسپیناس رزرو می‌کنید، برای هر رزرو امتیاز
+                    وفاداری دریافت می‌کنید. با گذشت زمان، امتیازات وفاداری اضافه می شود و می توان از آنها به عنوان تخفیف
+                    در رزروهای بعدی استفاده کرد.</p>
+            </caption>
+        </figcaption>
+        <figcaption
+            class="w-full xl:w-1/3 px-3 pt-4 md:w-1/2 md:border-l-2 xl:border-l-0 *:w-full flex flex-wrap gap-2.5 **:text-center border-b-2 pb-3 border-gray-500">
+            <figure class="flex justify-center">
+                <img class="w-[100px] h-[100px] object-cover" src="public/img-s3-3.png" alt="">
+            </figure>
+            <caption>
+                <h2 class="font-marcellus font-bold text-2xl text-gray-950">سفارشی سازی اتاق</h2>
+                <p class="text-gray-500 font-bold">اگر در طول سفر خود تولد یا سالگردی را جشن می گیرید، می توانید در زمان
+                    رزرو جزییات مناسبت خود را ذکر کنید و هتل می تواند کاری انجام دهد تا بازدید شما برای آن مناسبت خاص
+                    باشد.</p>
+            </caption>
+        </figcaption>
+        <figcaption
+            class="w-full xl:w-1/3 px-3 pt-4 md:w-1/2 *:w-full flex flex-wrap gap-2.5 **:text-center border-b-2 pb-3 xl:border-l-2 xl:border-b-0 border-gray-500">
+            <figure class="flex justify-center">
+                <img class="w-[100px] h-[100px] object-cover" src="public/img-s3-4.png" alt="">
+            </figure>
+            <caption>
+                <h2 class="font-marcellus font-bold text-2xl text-gray-950">تجربه بهتر مهمان</h2>
+                <p class="text-gray-500 font-bold">هنگامی که مهمانان مستقیماً با یک هتل رزرو می کنند، به احتمال زیاد
+                    تجربه شخصی را دریافت خواهند کرد. هتل ها می توانند مستقیماً با مهمانان ارتباط برقرار کنند و توصیه ها
+                    و امکانات شخصی را به آنها ارائه دهند.</p>
+            </caption>
+        </figcaption>
+        <figcaption
+            class="w-full xl:w-1/3 px-3 pt-4 md:w-1/2 md:border-l-2 *:w-full flex flex-wrap gap-2.5 **:text-center border-b-2 md:border-b-0 pb-3 border-gray-500">
+            <figure class="flex justify-center">
+                <img class="w-[100px] h-[100px] object-cover" src="public/img-s3-5.png" alt="">
+            </figure>
+            <caption>
+                <h2 class="font-marcellus font-bold text-2xl text-gray-950">خدمات مشتری</h2>
+                <p class="text-gray-500 font-bold">مهمانانی که اتاق خود را مستقیما از سایت رسمی هتل رزرو می نمایند مشمول
+                    قوانین استاندارد هتل می باشند و در صورت تمایل به اصلاح و یا کنسلی رزرو می توانند مستقیما با همکاران
+                    ما در ارتباط باشند. مشکلات احتمالی پیش امده برای رزروهای خارج از وب سایت رسمی اسپیناس، بر عهده هتل
+                    نمی باشد .</p>
+            </caption>
+        </figcaption>
+        <figcaption
+            class="w-full xl:w-1/3 px-3 pt-4 md:w-1/2 *:w-full flex flex-wrap gap-2.5 **:text-center pb-3 border-gray-500">
+            <figure class="flex justify-center">
+                <img class="w-[100px] h-[100px] object-cover" src="public/img-s3-6.png" alt="">
+            </figure>
+            <caption>
+                <h2 class="font-marcellus font-bold text-2xl text-gray-950">تضمین قطعی بودن رزرو</h2>
+                <p class="text-gray-500 font-bold">بسیار بدیهیست که رزرو بیش از حد به طور منظم انجام می شود. بنابراین،
+                    رزرو بیش از حد تضمین می کند که همیشه یک مهمان دیگر برای پر کردن اتاقی که ناگهان خالی می شود وجود
+                    دارد.</p>
+            </caption>
+        </figcaption>
+    </section>
+
+    <!-- end section 3 -->
+
+
+    <!-- start section 4 -->
+
+    <section
+        class="min-h-max w-full flex-wrap flex *:w-full md:*:w-1/3 justify-center content-center *:min-h-[350px] *:py-5 ">
+        <div
+            class="text-center px-3 *:z-50 bgall blackcover *:flex *:justify-center backsfa flex content-center justify-center flex-wrap *:w-full">
+            <h3 class=" mb-3 text-amber-400 font-bold">آدرس شعب</h3>
+            <h2 class="mb-5 text-amber-50 font-bold text-3xl">هتل اسپیناس پالاس</h2>
+            <p class=" mb-5 text-2xl text-amber-50 font-bold">تهران، سعادت آباد، میدان بهرود، خیابان عابدی، خیابان 33،
+                هتل
+                اسپیناس
+                پالاس</p>
+            <p class="text-amber-50 font-bold">تلفن: 02175675</p>
+            <p class="mb-3 text-amber-50 font-bold">نمابر: 02175675365</p>
+            <div class="text-amber-50 font-bold"><a class="group min-w-max min-h-max px-6 py-[10px] border-2 border-amber-600 bg-[#00000090] hover:bg-black flex items-center jcc
+                " href="">مسیر دسترسی <i
+                        class="group-hover:translate-x-0 duration-500 -translate-x-3 bi bi-arrow-right"></i></a></div>
+        </div>
+        <div
+            class="text-center px-3 *:z-50 bgall blackcover *:flex *:justify-center backsfb flex content-center justify-center flex-wrap *:w-full">
+            <h3 class=" mb-3 text-amber-400 font-bold">آدرس شعب</h3>
+            <h2 class="mb-5 text-amber-50 font-bold text-3xl">هتل اسپیناس بین الملل</h2>
+            <p class=" mb-5 text-2xl text-amber-50 font-bold">تهران، میدان ولیعصر، بلوار کشاورز، شماره 126، هتل اسپیناس
+                بین
+                الملل</p>
+            <p class="text-amber-50 font-bold">تلفن: 02183844</p>
+            <p class="mb-3 text-amber-50 font-bold">نمابر: 02175675365</p>
+            <div class="text-amber-50 font-bold"><a class="group min-w-max min-h-max px-6 py-[10px] border-2 border-amber-600 bg-[#00000090] hover:bg-black flex items-center jcc
+                " href="">مسیر دسترسی <i
+                        class="group-hover:translate-x-0 duration-500 -translate-x-3 bi bi-arrow-right"></i></a></div>
+        </div>
+        <div
+            class="text-center px-3 *:z-50 bgall blackcover *:flex *:justify-center backsfc flex content-center justify-center flex-wrap *:w-full">
+            <h3 class=" mb-3 text-amber-400 font-bold">آدرس شعب</h3>
+            <h2 class="mb-5 text-amber-50 font-bold text-3xl">هتل اسپیناس آستارا</h2>
+            <p class=" mb-5 text-2xl text-amber-50 font-bold">گیلان، شهر آستارا، جاده رشت به آستارا، هتل اسپیناس آستارا
+            </p>
+            <p class="text-amber-50 font-bold">تلفن: 02175675</p>
+            <p class="mb-3 text-amber-50 font-bold">نمابر: 02175675365</p>
+            <div class="text-amber-50 font-bold"><a class="group min-w-max min-h-max px-6 py-[10px] border-2 border-amber-600 bg-[#00000090] hover:bg-black flex items-center jcc
+                " href="">مسیر دسترسی <i
+                        class="group-hover:translate-x-0 duration-500 -translate-x-3 bi bi-arrow-right"></i></a></div>
+        </div>
+    </section>
+
+    <!-- end section 4 -->
+    <!-- start section 5 -->
+    <section
+        class="w-full bg-orange-300 flex justify-evenly *:w-full flex-wrap md:*:w-[40%] items-center content-center min-h-[35vh] px-3 md:px-0">
+
+        <div class="flex flex-wrap *:w-full md:mb-0 mb-5">
+            <h3 class="mb-2 font-bold font-marcellus">- گوش به زنگ باشید</h3>
+            <h3 class="text-3xl font-bold font-marcellus">برای دریافت پیشنهادات ویژه ما در خبرنامه ثبت نام کنید.</h3>
+        </div>
+        <div>
+            <div class="flex border-b-2 border-black py-3 px-3 mb-4">
+                <input type="email" class="w-full outline-0 placeholder:text-black"
+                    placeholder="ایمیل خود را وارد کنید.">
+                <a class="block min-w-max pr-3" href="">ثبت نام <i class="bi bi-telegram"></i></a>
+            </div>
+            <input type="checkbox" id="ch" class="ml-1">
+            <label for="ch">شرایط و قوانین ثبت‌نام را می‌پذیرم.</label>
+        </div>
+
+    </section>
+
+    <!-- end section 5 -->
+
+    <!-- start footer -->
+    <footer class="w-full min-h-[60vh] bg-gray-950 px-10 pt-20">
+        <div class="w-full *:h-full min-h-max flex items-center justify-center mb-20">
+            <div class="w-full flex items-center">
+                <div class="w-full h-[3px] bg-gray-400"></div>
+            </div>
+            <img src="public/espinas_new_top_logo_white.png" class="h-[100px] w-auto object-cover px-3" alt="">
+            <div class="w-full flex items-center">
+                <div class="w-full h-[3px] bg-gray-400"></div>
+            </div>
+        </div>
+        <div
+            class="items-center flex justify-center w-full flex-wrap *:w-[350px] *:xl:w-1/4 *:md:w-1/2 *:h-[180px] h-max ">
+            <div class="md:border-l px-3 border-amber-50 ">
+                <p class="font-bold text-amber-400 text-2xl mb-3 font-marcellus w-fit">در ارتباط باشید</p>
+                <div class="*:text-gray-200 *:font-bold flex flex-wrap content-center max-w-min">
+                    <p class="mb-3 min-w-max">ما را در شبکه های اجتماعی دنبال کنید.</p>
+                    <div class="w-fit">
+                        <a href=""><i class="icon-wh"></i></a>
+                        <a href=""><i class="icon-li"></i></a>
+                        <a href=""><i class="icon-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class=" xl:border-l px-3 border-amber-50 ">
+                <p class="font-bold text-amber-400 text-2xl mb-3 font-marcellus w-fit">واحد فروش، مارکتینگ و رزرواسیون
+                </p>
+                <div class="*:text-gray-200 *:font-bold flex flex-wrap content-center justify-end max-w-min">
+                    <p class="mb-3 min-w-max">atena.ghorbanzadeh@espinashotels.com</p>
+                    <p class="mb-3 min-w-max">sales@espinashotels.com</p>
+                    <p class="mb-3 min-w-max">sales@espinashotels.com</p>
+                </div>
+            </div>
+            <div class=" md:border-l px-3 border-amber-50">
+                <p class="font-bold text-amber-400 text-2xl mb-3 font-marcellus w-fit">تلفن های تماس</p>
+                <div class="*:text-gray-200 *:font-bold flex flex-wrap content-center max-w-min">
+                    <p class="mb-3 min-w-max">تلفن: 02175675</p>
+                    <p class="mb-3 min-w-max">نمابر: 02175675365</p>
+
+                </div>
+            </div>
+            <div class="px-3 border-amber-50 ">
+                <p class="font-bold text-amber-400 text-2xl mb-3 font-marcellus w-fit">دفتر مدیریت</p>
+                <div class="*:text-gray-200 *:font-bold flex flex-wrap content-center max-w-min">
+                    <p class="mb-3 min-w-max">
+                        تهران، سعادت آباد، میدان بهرود،<br> خیابان 33، هتل اسپیناس پالاس
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end footer -->
+
+    <div class="border-t-2 border-white py-4 px-10 flex gap-20 items-center bg-gray-950 flex-wrap justify-center">
+        <a class="text-amber-50 hover:text-amber-400 font-bold font-marcellus text-2xl" href="">صفحه نخست</a><a
+            class="text-amber-50 hover:text-amber-400 font-bold font-marcellus text-2xl" href="">سالن کنسرت</a><a
+            class="text-amber-50 hover:text-amber-400 font-bold font-marcellus text-2xl" href="">مجموعه فان سنتر</a><a
+            class="text-amber-50 hover:text-amber-400 font-bold font-marcellus text-2xl" href="">استخدام</a>
+        <p class="text-center text-amber-50 font-bold font-marcellus text-3xl w-full">CODED BY NIMA FIROUZI</p>
+    </div>
+</body>
+<script>
+
+    // selected
+
+    const rList = document.querySelector(".rlist"),
+        LList = document.querySelector(".llist"),
+        listBtn = document.querySelector(".bi-list"),
+        xRBtn = document.querySelector(".xrbtn"),
+        xLBtn = document.querySelector(".xlbtn"),
+        RLbtn = document.querySelector(".rlbtn"),
+        LLbtn = document.querySelector(".llbtn"),
+        subLR = document.querySelector(".sublr")
+
+
+    // selected
+
+
+    // open right or left list by size
+    listBtn.addEventListener("click", () => {
+        window.innerWidth >= 1280 ? rList.classList.replace("-right-full", "right-0") : LList.classList.replace("-left-full", "left-0")
+    })
+    // open right or left list by size
+
+    // close lists by resize
+
+    window.addEventListener("resize", () => {
+        window.innerWidth >= 1280 ? closeLList() : closeRList()
+
+    })
+
+    // close lists by resize
+
+
+    // close lists by click on window
+    window.addEventListener("click", (e) => {
+        const target = e.target
+        if (!listBtn.contains(target)) {
+            if (!LList.contains(target)) {
+                closeLList()
+                subLR.classList.replace("right-0", "right-full")
+            }
+            if (!rList.contains(target)) {
+                closeRList()
+            }
+        }
+
+
+    })
+
+
+    // close lists by click on window
+    // close right list by click on close button
+    xRBtn.addEventListener("click", closeRList)
+    // close right list by click on close button
+
+
+
+    function closeRList() {
+        rList.classList.replace("right-0", "-right-full")
+
+    }
+
+    function closeLList() {
+        LList.classList.replace("left-0", "-left-full")
+    }
+
+
+    // close subList left list by click on button
+    LLbtn.addEventListener("click", () => {
+        subLR.classList.replace("right-0", "right-full")
+
+
+    })
+    // close right list by click on close button
+
+    // open right list by click on open button
+
+    RLbtn.addEventListener("click", () => {
+        subLR.classList.replace("right-full", "right-0")
+    })
+
+    // open right list by click on open button
+
+    // close left list by click on close button
+
+    xLBtn.addEventListener("click", () => {
+        closeLList()
+    })
+
+    // close left list by click on close button
+
+</script>
+
+</html>
