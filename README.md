@@ -6,4 +6,4 @@
 <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="160" height="160"/> </a>
 
 # SCREEN-SHOT
-<img src="public/espinas_new_top_logo_white.png">
+![Project Screenshot](/public/espinas_new_top_logo_white.png)
