@@ -1,5 +1,5 @@
 # fa-tailwind
-<div dir="left" align="center">
+<div dir="ltr" align="left">
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
 </div>
 
